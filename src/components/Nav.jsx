@@ -12,7 +12,7 @@ import {navLinks} from '../constants/index'
         <img src={headerLogo} alt='logo'
           width={130}
           heigth={29}
-          className='text-[#00df9a]'
+          className='bg-[#00df9a]'
         />
       </a>
       <ul className='flex-1 flex justify-center
@@ -23,7 +23,7 @@ import {navLinks} from '../constants/index'
           <a href={item.href}
           className='font-montserrat 
           leading-normal text-lg
-          text-slate-gray'>{item.label}</a>
+          text-green-500'>{item.label}</a>
         </li>
       ))}
       </ul> 

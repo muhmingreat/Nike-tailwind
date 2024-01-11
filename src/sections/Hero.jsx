@@ -22,7 +22,7 @@ const Hero = () => {
  pt-28"
       >
         <p className='text-xl font-montserrat
-        text-[#00fd9a]'> Our Summer Collection</p>
+        text-[green]'> Our Summer Collection</p>
         <h1 className='mt-10 font-palanquin text-8xl
         max-sm:text-[72px]
           max-sm:leading-[82px]
@@ -33,17 +33,17 @@ const Hero = () => {
           pr-10'>The New Arrival</span>
           <br />
           <span className='text-[#00df9a] 
-          inlined-block mt-3'>Nike </span>
+           mt-18 '>Nike </span>
           Shoes
         </h1>
         <p className='font-montserrat text-slate-gray 
-        text-lg leading-8 mt-8 mb-14 sm:max-w-sm'> Discover Stylis Nike arrival confort 
+        text-lg leading-8 mt-8 mb-14 sm:max-w-sm'> Discover Stylies Nike arrival confort 
         and innovation for your active life.</p>
       <Button label='Shop now'
       iconURL={arrowRight}/>
       <div className='flex justify-start items-start
       flex-wrap w-full mt-20 gap-16'>
-        {statistics.map((stat, index) => (
+        {statistics.map((stat) => (
           <div key={stat.value}>
           <p>{stat.value}</p>
           <p>{stat.label} </p>

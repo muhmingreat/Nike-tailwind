@@ -13,8 +13,8 @@ const SuperQuality = () => {
         <h2
           className=" font-palanguin lg:max-w-lg capitalize text-4xl font-bold"
         >
-        We provide you
-        <span className='text-[#00fd9a]'>
+        We provide you{' '}
+        <span className='text-[#00fd9a]' >
           Super Quality</span> Shoes
           
         </h2>
